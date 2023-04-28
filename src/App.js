@@ -9,16 +9,13 @@ import CityDetails from './pages/CityDetails'
 import {BrowserRouter, Routes, Route} from 'react-router-dom'; 
 
 
-
 function App() {
 
   const user ={
     firstName:"Ana",
     imageUrl:"https://picsum.photos/200/300"
   }
-  
-  
-  
+    
   const cities = [
     {
       _id:1,
