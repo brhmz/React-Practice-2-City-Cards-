@@ -9,7 +9,7 @@ function header({user}) {
             <a href = '/aboutus'>About Us</a>
         </div>
         <div className='profile-container'>
-            <img className='profile-image' src = {user.imageUrl} alt={use.userName}/>
+            <img className='profile-image' src = {user.imageUrl} alt={use.firstName}/>
             <p>{user.firstName}</p>
         </div>
     </div>
